@@ -1,6 +1,6 @@
 .nav-geral{
-    display: grid;
-    grid-template-columns: 70px 70px 200px;
+    display: flex;
+    grid-template-columns: 61px 74px;
     align-items: center;
 }
 
@@ -82,5 +82,9 @@ body {
 .textnextpage:hover{
   color: rgba(255, 255, 255, 0.562);
   cursor: pointer;
+}
+
+#button-nav-nextpage{
+  display: flex;
 }
 

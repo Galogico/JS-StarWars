@@ -1,0 +1,30 @@
+.gridnavbartxt1{
+    display: grid;
+    grid-template-columns: 818px;
+  
+  }
+  .textnextpage{
+    color: white;
+    right: 0;
+    text-decoration: none;
+  
+  }
+  .textnextpage:hover{
+    color: rgba(255, 255, 255, 0.562);
+    cursor: pointer;
+  }
+  
+  #button-nav-nextpage{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .nav-geral{
+    display: flex;
+    grid-template-columns: 61px 74px;
+    align-items: center;
+}
+
+.iconNavbar1{
+    transform: scaleX(-1);
+}
