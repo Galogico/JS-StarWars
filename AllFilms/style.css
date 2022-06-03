@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap');
+
 .gridnavbartxt1{
     display: grid;
     grid-template-columns: 818px;
@@ -27,4 +29,35 @@
 
 .iconNavbar1{
     transform: scaleX(-1);
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+  background-image: url("../images/Starfield.webp");
+  
+  font-family: 'Star Jedi', arial;
+}
+
+.videoobiwan{
+
+  margin-top: 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.textoSerieObiwan{
+  color: white;
+  margin-top: 20px;
+  font-size: 30px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+#headereObi{
+
+  font-family: 'Anton', sans-serif;
 }
